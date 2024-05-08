@@ -6,6 +6,7 @@ class HTMLDocument {
     this.childNodes = []
   }
 }
+
 class Node {}
 class Element extends Node {
   constructor (token) {
